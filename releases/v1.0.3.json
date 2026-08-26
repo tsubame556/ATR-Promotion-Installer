@@ -1,0 +1,14 @@
+{
+  "version": "1.0.3",
+  "tag": "v1.0.3",
+  "package": "ATR-Promotion-1.0.3-arm64-lab.pkg",
+  "sha256": "67a276d3d75a866fc62728eab4b8be8854ae828ed54e27be0d77e6ae1a139f6c",
+  "architecture": "arm64",
+  "minimum_macos": "11.0",
+  "installer_package_id": "com.tsubame556.atr-promotion.lab",
+  "distribution": "unsigned laboratory-managed macOS package",
+  "notes": [
+    "Disconnect後はセンサーペアリングを先に行うUI状態へ遷移します。",
+    "外付けSSDのCSV保存先が未接続の場合は、設定を保持したままデスクトップへ自動保存します。"
+  ]
+}
