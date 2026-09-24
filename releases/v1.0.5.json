@@ -1,0 +1,15 @@
+{
+  "version": "1.0.5",
+  "tag": "v1.0.5",
+  "package": "ATR-Promotion-1.0.5-arm64-lab.pkg",
+  "sha256": "dc795fafa0e418dc2a76f04a3230382656a1f07e9c32b4aed72720e0e6fe2877",
+  "architecture": "arm64",
+  "minimum_macos": "11.0",
+  "installer_package_id": "com.tsubame556.atr-promotion.lab",
+  "distribution": "unsigned laboratory-managed macOS package",
+  "notes": [
+    "記録中に時刻同期マーカーを追加できるようにしました。主CSVと補助イベントCSVへ、SynchronizationMarker、経過秒、UTC日時を記録します。",
+    "1時間のIMU・光学式Mocap別ファイルを、開始・中間・終了の同期動作に基づくオフライン時刻対応付けで評価する手順を追加しました。",
+    "既存のUTC時刻、Mocap同期時刻、同期誤差のCSV記録は継続します。"
+  ]
+}

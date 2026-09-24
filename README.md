@@ -6,10 +6,10 @@ ATR Promotion（IMUを用いた乳児人形姿勢推定システム）の、研�
 
 ## 最新版
 
-- バージョン: `v1.0.4`
+- バージョン: `v1.0.5`
 - 対象: Apple Silicon（`arm64`）、macOS 11以降
-- ファイル: `ATR-Promotion-1.0.4-arm64-lab.pkg`
-- SHA-256: `8ea2469b63ea963528af2524e8e432e886938272708b8ce43843747e02efb8c6`
+- ファイル: `ATR-Promotion-1.0.5-arm64-lab.pkg`
+- SHA-256: `dc795fafa0e418dc2a76f04a3230382656a1f07e9c32b4aed72720e0e6fe2877`
 
 インストーラーは[Releases](https://github.com/tsubame556/ATR-Promotion-Installer/releases)から取得してください。
 
@@ -20,14 +20,14 @@ ATR Promotion（IMUを用いた乳児人形姿勢推定システム）の、研�
 3. 必要に応じてダウンロードしたファイルを検証します。
 
    ```bash
-   shasum -a 256 "/path/to/ATR-Promotion-1.0.4-arm64-lab.pkg"
+   shasum -a 256 "/path/to/ATR-Promotion-1.0.5-arm64-lab.pkg"
    ```
 
 4. 管理者権限でインストールします。
 
    ```bash
    sudo /usr/sbin/installer \
-     -pkg "/path/to/ATR-Promotion-1.0.4-arm64-lab.pkg" \
+     -pkg "/path/to/ATR-Promotion-1.0.5-arm64-lab.pkg" \
      -target /
    ```
 
@@ -42,7 +42,7 @@ ATR Promotion（IMUを用いた乳児人形姿勢推定システム）の、研�
 
 ## バージョン管理方針
 
-- 各配布版はGitタグ（例: `v1.0.4`）とGitHub Releaseで対応付けます。
+- 各配布版はGitタグ（例: `v1.0.5`）とGitHub Releaseで対応付けます。
 - `checksums/`には配布パッケージのSHA-256を保存します。
 - `releases/`には版ごとの対応環境・ファイル名・ハッシュを保存します。
 - `.pkg`本体はRelease添付資産として保存します。通常のGitコミットへ直接追加しません。
