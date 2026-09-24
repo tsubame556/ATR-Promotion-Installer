@@ -1,0 +1,15 @@
+{
+  "version": "1.0.4",
+  "tag": "v1.0.4",
+  "package": "ATR-Promotion-1.0.4-arm64-lab.pkg",
+  "sha256": "8ea2469b63ea963528af2524e8e432e886938272708b8ce43843747e02efb8c6",
+  "architecture": "arm64",
+  "minimum_macos": "11.0",
+  "installer_package_id": "com.tsubame556.atr-promotion.lab",
+  "distribution": "unsigned laboratory-managed macOS package",
+  "notes": [
+    "出力CSVの全レコードに、経過秒に加えてUTCのISO 8601タイムスタンプ（OccurredAtUtc）を保存します。",
+    "保存先の選択時に書き込み可能か確認します。指定先が未接続または書き込み不可の場合は、設定を保持したままデスクトップへ保存し、アプリ上で通知します。",
+    "取扱説明書 v01 をリポジトリ内の manuals/ に追加しました。"
+  ]
+}
