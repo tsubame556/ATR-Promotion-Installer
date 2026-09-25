@@ -1,0 +1,16 @@
+{
+  "version": "1.0.6",
+  "tag": "v1.0.6",
+  "package": "ATR-Promotion-1.0.6-arm64-lab.pkg",
+  "sha256": "1549147917e523a6e6b360c7632327cc747dfb412f429c5327e300ad935cefc8",
+  "architecture": "arm64",
+  "minimum_macos": "11.0",
+  "installer_package_id": "com.tsubame556.atr-promotion.lab",
+  "distribution": "unsigned laboratory-managed macOS package",
+  "notes": [
+    "TSND151のバッテリ電圧・残量イベントを有効化し、実測値を表示します。",
+    "接続直後にバッテリ状態を照会し、未受信時は100%ではなく reading... と表示します。",
+    "接続状態欄へ残量（%）と電圧（V）を表示し、残量20%以下を黄、10%以下を赤で警告します。",
+    "CSVへ各センサのBatteryVoltageVおよびBatteryPercent列を追加しました。"
+  ]
+}
