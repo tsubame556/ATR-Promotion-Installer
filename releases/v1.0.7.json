@@ -1,0 +1,15 @@
+{
+  "version": "1.0.7",
+  "tag": "v1.0.7",
+  "package": "ATR-Promotion-1.0.7-arm64-lab.pkg",
+  "sha256": "04e946a61fea379c598c2dddb837affd85370fef31442f8871002608a75d34cb",
+  "architecture": "arm64",
+  "minimum_macos": "11.0",
+  "installer_package_id": "com.tsubame556.atr-promotion.lab",
+  "distribution": "unsigned laboratory-managed macOS package",
+  "notes": [
+    "センサ対応欄の選択済みTSND151名を、常に黒文字・不透明で表示するよう修正しました。",
+    "センサ再検索および選択後にも、ドロップダウンの表示色と選択値を再適用します。",
+    "展開した候補リストの文字色も黒へ統一しました。"
+  ]
+}
