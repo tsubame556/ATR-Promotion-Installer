@@ -6,10 +6,10 @@ ATR Promotion（IMUを用いた乳児人形姿勢推定システム）の、研�
 
 ## 最新版
 
-- バージョン: `v1.0.7`
+- バージョン: `v1.0.8`
 - 対象: Apple Silicon（`arm64`）、macOS 11以降
-- ファイル: `ATR-Promotion-1.0.7-arm64-lab.pkg`
-- SHA-256: `04e946a61fea379c598c2dddb837affd85370fef31442f8871002608a75d34cb`
+- ファイル: `ATR-Promotion-1.0.8-arm64-lab.pkg`
+- SHA-256: `5c9da99b8f0aabfa978087022b8bd3bc2af0f3b2d92a7f27fe007f903802a063`
 
 インストーラーは[Releases](https://github.com/tsubame556/ATR-Promotion-Installer/releases)から取得してください。
 
@@ -27,7 +27,7 @@ ATR Promotion（IMUを用いた乳児人形姿勢推定システム）の、研�
 
    ```bash
    sudo /usr/sbin/installer \
-     -pkg "/path/to/ATR-Promotion-1.0.7-arm64-lab.pkg" \
+     -pkg "/path/to/ATR-Promotion-1.0.8-arm64-lab.pkg" \
      -target /
    ```
 

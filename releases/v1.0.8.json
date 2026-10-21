@@ -1,0 +1,16 @@
+{
+  "version": "1.0.8",
+  "tag": "v1.0.8",
+  "package": "ATR-Promotion-1.0.8-arm64-lab.pkg",
+  "sha256": "5c9da99b8f0aabfa978087022b8bd3bc2af0f3b2d92a7f27fe007f903802a063",
+  "architecture": "arm64",
+  "minimum_macos": "11.0",
+  "installer_package_id": "com.tsubame556.atr-promotion.lab",
+  "distribution": "unsigned laboratory-managed macOS package",
+  "notes": [
+    "研究室サーバー同期の設定画面を追加しました。サーバーURL・端末コード・端末トークンを端末ごとに安全に保存できます。",
+    "CSVのエクスポート時に、被験者番号と計測セッションに紐付けてデータを自動アップロードします。通信できない場合は端末内の再送キューへ保存し、次回接続時または手動再送時に送信します。",
+    "センサ対応欄の選択済みTSND151名を、常に黒文字・不透明で表示する修正を維持しています。",
+    "Bluetooth・ペアリング・クラウド同期用の補助プログラムをすべてパッケージに同梱しています。"
+  ]
+}
